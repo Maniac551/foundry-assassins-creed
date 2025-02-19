@@ -63,6 +63,6 @@
             "type": "RollTable"
         }
     ],
-    "manifest": "https://your-repo.com/path-to-your/module.json",
-    "download": "https://your-repo.com/path-to-your/assassins-creed-ttrpg.zip"
+    "manifest": "https://raw.githubusercontent.com/Maniac551/foundry-assassins-creed/main/module.json",
+    "download": "https://raw.githubusercontent.com/YOUR_USERNAME/foundry-assassins-creed/main/assassins-creed-ttrpg.zip"
 }
