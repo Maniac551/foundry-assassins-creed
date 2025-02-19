@@ -1,0 +1,68 @@
+{
+    "id": "assassins-creed-ttrpg",
+    "name": "assassins-creed-ttrpg",
+    "title": "Assassin's Creed TTRPG Module",
+    "description": "A module containing items, abilities, macros, and missions for the Assassin's Creed TTRPG system in FoundryVTT.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Your Name",
+            "discord": "YourDiscord#1234",
+            "url": "https://yourwebsite.com/"
+        }
+    ],
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "12",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "12"
+    },
+    "packs": [
+        {
+            "name": "assassins-items",
+            "label": "Assassin's Creed Items",
+            "path": "packs/items.db",
+            "type": "Item",
+            "system": "assassins-creed-ttrpg"
+        },
+        {
+            "name": "assassins-abilities",
+            "label": "Assassin's Creed Abilities",
+            "path": "packs/abilities.db",
+            "type": "Item",
+            "system": "assassins-creed-ttrpg"
+        },
+        {
+            "name": "assassins-missions",
+            "label": "Brotherhood Missions",
+            "path": "packs/missions.db",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "assassins-macros",
+            "label": "Assassin's Creed Macros",
+            "path": "packs/macros.db",
+            "type": "Macro"
+        },
+        {
+            "name": "assassins-creatures",
+            "label": "Assassin's Creed NPCs",
+            "path": "packs/creatures.db",
+            "type": "Actor"
+        },
+        {
+            "name": "assassins-scenes",
+            "label": "Assassin's Creed Maps & Scenes",
+            "path": "packs/scenes.db",
+            "type": "Scene"
+        },
+        {
+            "name": "assassins-roll-tables",
+            "label": "Assassin's Creed Random Events",
+            "path": "packs/roll-tables.db",
+            "type": "RollTable"
+        }
+    ],
+    "manifest": "https://your-repo.com/path-to-your/module.json",
+    "download": "https://your-repo.com/path-to-your/assassins-creed-ttrpg.zip"
+}
