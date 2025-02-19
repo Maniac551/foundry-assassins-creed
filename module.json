@@ -6,9 +6,7 @@
     "version": "1.0.0",
     "authors": [
         {
-            "name": "Sam",
-            "discord": "",
-            "url": ""
+            "name": "Sam"
         }
     ],
     "minimumCoreVersion": "10",
@@ -23,14 +21,14 @@
             "label": "Assassin's Creed Items",
             "path": "packs/items.db",
             "type": "Item",
-            "system": "assassins-creed-ttrpg"
+            "system": "dnd5e"
         },
         {
             "name": "assassins-abilities",
             "label": "Assassin's Creed Abilities",
             "path": "packs/abilities.db",
             "type": "Item",
-            "system": "assassins-creed-ttrpg"
+            "system": "dnd5e"
         },
         {
             "name": "assassins-missions",
@@ -64,5 +62,5 @@
         }
     ],
     "manifest": "https://raw.githubusercontent.com/Maniac551/foundry-assassins-creed/main/module.json",
-    "download": "https://raw.githubusercontent.com/YOUR_USERNAME/foundry-assassins-creed/main/assassins-creed-ttrpg.zip"
+    "download": "https://raw.githubusercontent.com/Maniac551/foundry-assassins-creed/main/assassins-creed-ttrpg.zip"
 }
